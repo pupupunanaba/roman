@@ -1,0 +1,660 @@
+
+
+
+/* スマホ（576px未満の場合） */
+@media screen and (max-width:576px) {
+
+  /* ここにCSS */
+  /* --------------------------
+  全体構造
+---------------------------*/
+
+body {
+  width: auto;
+  min-width: auto;
+  font-size: 13px;
+}
+
+
+// トップに戻る
+.back-top {
+  z-index: 1;
+  position: fixed;
+  bottom: 7%;
+  right: 5%;
+
+  img {
+    width: 15px;
+ 
+  }
+ }
+
+  // h2見出しの共通部分調整
+  h2.heading {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+
+
+  .hamburger-button {
+    display: flex;
+  }
+
+
+  
+/* ハンバーガーメニューのメニューを中央揃えに */
+.hamburger-nav {
+  height: 100vh;
+
+  
+  ul {
+  width: 100%;
+  /* 高さを入れないといけない */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .hamburger-nav li {
+    font-size: 18px;
+    }
+  /*  */
+}
+
+
+
+// --------------------------------
+// ヘッダー
+// --------------------------------
+header .pc-nav {
+  display: none;
+  // ナビ削除
+}
+
+#home .top-view{
+  background-size: contain; 
+  background-position: 0% 40%;  
+  // ロゴの大きさ調整
+  height:100vh;  
+}
+
+ 
+// --------------------------------
+// メインイメージ
+// --------------------------------
+
+
+// --------------------------------
+// メインイメージ
+// --------------------------------
+
+
+.main-content {
+// background-color: #4A3E33;
+padding: 60px 0 100px 0;
+
+  img {
+    // タルトのサイズ
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+.slideshow {
+margin: 0 15px;
+  background-size: contain;
+  // タルトの位置調整
+
+img {
+  margin-top: 10px;
+}
+ 
+}
+
+
+p {
+  font-size: 13px;
+  margin: 30px 0 0 0;
+  text-align: left;
+  padding: 20px;
+
+br {
+  display: none;
+}
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+// --------------------------------
+// ストーリー
+// --------------------------------
+.story {  
+ 
+// ---------------------ウェーブの調整
+.custom-shape-divider-top-1659331879 {
+display: none;
+}
+
+.custom-shape-divider-top-1659331964 {
+  display: none;
+}
+
+.custom-shape-divider-top-1659331964 svg {
+  display: none;
+}
+
+// ---------------------ウェーブの調整ここまで
+
+
+
+.story-content {
+  // 画像のセットを縦並びに変更
+  width: auto;
+  display: block;
+
+
+  p {
+    font-size: 13px;
+    margin: 0 0 30px 0;
+    padding: 0 20px;
+    br{
+      display: none;
+    }
+  }
+
+  img {
+    // 店舗画像の幅を制限
+    width: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px 15px;
+  }
+}
+}
+
+// --------------------------------
+// ニュース
+// --------------------------------
+
+.news {   
+  background-size: auto;
+  padding: 150px 15px 150px 15px;
+  
+  
+  background-image:none;
+ background-color: #7B3C30;
+
+ 
+
+   .news-box {
+     position: relative;
+     width: auto;
+     display: inline;
+ 
+   
+     .news-box-inner {
+     border-radius: 10px;
+     height: 150px;
+     padding: 15px;
+     margin-bottom: 20px;
+     width: auto;
+
+     .news-desc {
+      font-size: 12px;
+    br {
+      display: none;
+     }
+     }
+
+i {
+  margin-left: 10px;
+}
+}
+
+ // 矢印右アイコン
+ i {
+  position: absolute;
+  top: 70px;
+  right: 5px;
+}
+
+   }
+   
+   img {
+     // 画像の幅を指定
+     width: 120px;
+     margin-right: 10px;
+   }
+ 
+ }
+// --------------------------------
+// アクセス
+// --------------------------------
+
+
+  .access {
+    .access-content {
+     flex-direction: column-reverse;
+    }
+  
+    .left {
+      // 地図自体を100％にする
+      max-width:100%;
+      height: 400px;
+      margin: -60px 0 80px 0;
+    iframe {
+    width: 100%;
+    }
+  }
+
+    .right {
+      height: 400px;
+      // 配置の順番を調整
+      z-index: 1;
+      background-color: #fff;
+     padding-top: 70px;
+      width: 320px;
+      margin: 0 auto;
+
+p {
+  width: 240px;
+
+ br{
+  display: none;
+ }
+}
+ }
+}
+// <!-----------------------------------
+//  　ピックアップメニュー
+//  ----------------------------------->
+
+#menu  {
+  margin: 0px auto;
+  
+
+.summer {
+width: auto;
+
+h2 {
+  min-width: 350px;
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+  margin: 120px 0 50px 0;
+}
+
+p {
+margin-bottom: 30px;
+}
+
+.summer-content {
+  // margin-bottom: 30px;
+
+.pick-up-box1,
+.pick-up-box3 {
+display: block;
+  // 横並びで個数を固定して折り返すため100％
+  width: auto;
+  
+  margin: 0 20px 100px 15px;
+
+
+  br {
+    display: none;
+  }
+}
+  }
+
+  .pick-up-box2 {
+    // 2組目だけ順番変更
+    padding: 0 15px;
+    flex-direction: column-reverse;
+
+    br {
+      display: none;
+    }
+
+
+  }
+}
+}
+// --------------------------------
+// フードメニュー
+// --------------------------------
+.food {
+  background-color: #FCF9F3;
+ margin: 0 auto;
+ text-align: center;
+padding-top: 30px;
+font-size: 13px;
+
+#title {
+  font-size: 15px;
+}
+
+
+// スプーンの装飾削除
+.spoon {
+ display: none;
+ }
+ 
+ .knife {
+  display: none;
+ }
+ 
+ .fork {
+  display: none;
+ 
+ }
+ 
+
+  h2 {
+    font-size: 40px;
+    // フードタイトルの装飾の調整
+    background-image: none;
+  }
+
+  
+
+  .food-content {
+    padding-top: 0px;
+   width: auto;
+    background-image:none;
+  }
+
+  .food-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+   
+  }
+
+
+  
+  .item{
+// background-color: #7B3C30;
+font-size: 13px;   
+width: 160px;
+
+
+
+  }
+
+  img {
+    width: 150px;
+    border-radius: 10px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+// --------------------------------
+// ドリンクメニュー
+// --------------------------------
+
+.drink {
+
+margin-top: -100px;
+  h2 {
+    width: auto;
+    text-align: center;
+
+// ドリンクタイトルの装飾
+    background-image: none;
+   
+// 文字をセンターにしている
+   display: block;
+  }
+
+  .drink-menu {
+    
+   width: auto;
+   column-gap: 100px;
+  row-gap: 40px;
+  padding: 15px;
+
+//  英語表記のみ削除
+.english {
+  display: none;
+}
+
+
+  // 表の役目と2カラムにする機能
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  border-top: 1px solid #4A3E33;
+  justify-content: center;
+  padding-top: 50px;
+  }
+}
+
+// --------------------------------
+// コンタクトフォーム
+// --------------------------------
+#contact {
+  background-color: #F7F0E5;
+  
+  
+  .top-view{
+    margin-top: -50px;
+  overflow: hidden;
+  background-image: url(../image/top-logo.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;                                      
+  height:100vh;  
+  
+  //  画面垂直方向に広げる
+  }
+  
+  
+  header {
+    margin: 150px 0 0 100px;
+  }
+  
+  header li {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  
+  
+  // --------------------------------
+  //フォーム
+  // --------------------------------
+  
+  #contact-view {
+   background-image: url(../image/top-logo.png);
+  background-size: contain;
+  height:100vh;
+  }
+
+
+  .contact-box {
+    background-color: #FCF9F3;
+  //  ウエーブ背景の調整
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    background-position: top center;
+    margin: 0 auto;
+  }
+  
+  
+  .contact {
+    margin: 0 auto;
+    padding: 15px;
+    h2 {
+      font-size: 40px;
+      margin: 130px 0 60px 0;
+    }
+  
+    p {
+      text-align: left;
+      margin-bottom: 30px;
+      padding: 15px;
+    br {
+    display: none;
+       }
+     }
+  
+   
+    .form-item {
+    width: 300px;
+    margin: 0 auto;
+      text-align: left;
+      margin-bottom: 30px;
+      display: block;
+      overflow: hidden;
+  
+      
+      label {
+        margin-right: 30px;
+        .kome {
+          font-size: 13px;
+        }
+      }
+  
+      input {
+        width: 300px;
+        height: 30px;
+        
+      }
+  
+      textarea{
+        width: 300px;
+        height: 300px;
+     
+       
+       
+      }
+    }
+  
+    // 送信ボタンの調整
+    input[type="submit"]{
+    font-size:18px;
+    width: 250px;
+  }
+  
+  
+    }
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

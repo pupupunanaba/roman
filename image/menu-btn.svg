@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="33.5" viewBox="0 0 41 33.5">
+  <g id="menu-btn" transform="translate(-299.5 -29.5)">
+    <path id="パス_623" data-name="パス 623" d="M5110,30h40" transform="translate(-4810)" fill="none" stroke="#31220a" stroke-linecap="round" stroke-width="1"/>
+    <path id="パス_624" data-name="パス 624" d="M5110,30h40" transform="translate(-4810 10)" fill="none" stroke="#31220a" stroke-linecap="round" stroke-width="1"/>
+    <text id="MENU" transform="translate(320 60)" fill="#4a3d32" font-size="11" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="-17.287" y="0">MENU</tspan></text>
+  </g>
+</svg>

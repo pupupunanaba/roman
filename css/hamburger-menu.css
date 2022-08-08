@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hamburger-button {
+  display: flex; /* media query時にはflexでもどして */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1002;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+.hamburger-button svg {
+  height: 20px; /* autoではなく同じ数字で */
+  width: 20px; /* autoではなく同じ数字で */
+}
+.hamburger-button path {
+  fill: #31220A;
+}
+
+
+.hamburger-nav {
+  position: fixed;
+  width: 100%;
+  background-color: #4D2119;
+  z-index: 1001;
+  padding: 20px;
+  display: none;
+  /* 画面いっぱいに */
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.hamburger-nav ul {
+  width: 100%;
+    /* 高さを入れないといけない */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hamburger-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1000;
+}
+
+
+
+
